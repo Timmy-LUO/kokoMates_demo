@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "截圖_2024-12-24_晚上7.35.39-removebg-preview.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true,
+    "template-rendering-intent" : "template"
+  }
+}

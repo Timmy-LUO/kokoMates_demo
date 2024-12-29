@@ -1,0 +1,6 @@
+module Pods_kokoMates_demo_kokoMates_demoUITests {
+  umbrella header "Pods-kokoMates-demo-kokoMates-demoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

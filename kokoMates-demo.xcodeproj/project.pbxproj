@@ -7,15 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EA20CA6CA5E5098B76AB03A /* libPods-kokoMates-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A39E9A9453F1812E28E75DD5 /* libPods-kokoMates-demo.a */; };
+		4EE99BFE7B04D39F7DFA02EA /* libPods-kokoMates-demo-kokoMates-demoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9C75969D8F2C85CA16942C /* libPods-kokoMates-demo-kokoMates-demoUITests.a */; };
+		6201C70E2D1D3DB10077870C /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C70D2D1D3DB10077870C /* BadgeView.swift */; };
+		6201C7122D1D40EE0077870C /* KokoMatesTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C7112D1D40EE0077870C /* KokoMatesTextField.swift */; };
+		6201C7192D1D86B40077870C /* FriendRequestUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C7182D1D86B40077870C /* FriendRequestUiModel.swift */; };
+		6201C71C2D1DAFF60077870C /* FriendUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C71B2D1DAFF60077870C /* FriendUiModel.swift */; };
+		6201C71E2D1DB0510077870C /* TabFriendTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C71D2D1DB0510077870C /* TabFriendTableView.swift */; };
+		6201C7202D1DB3EA0077870C /* SubTabUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C71F2D1DB3EA0077870C /* SubTabUiModel.swift */; };
+		6201C7222D1DB59D0077870C /* HollowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C7212D1DB59D0077870C /* HollowButton.swift */; };
+		6201C7242D1E8C020077870C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C7232D1E8C020077870C /* HomeViewModel.swift */; };
+		6201C7262D1E935A0077870C /* SubTabFriendUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C7252D1E935A0077870C /* SubTabFriendUiModel.swift */; };
+		6201C7282D1E953C0077870C /* UserUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C7272D1E953C0077870C /* UserUiModel.swift */; };
+		6201C72C2D1ED6D80077870C /* HttpTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C72A2D1ED6D80077870C /* HttpTargetType.swift */; };
+		6201C72D2D1ED6D80077870C /* HttpApiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C72B2D1ED6D80077870C /* HttpApiConfig.swift */; };
+		6201C7302D1ED7580077870C /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C72F2D1ED7580077870C /* UserService.swift */; };
+		6201C7322D1EDAB20077870C /* UserResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C7312D1EDAB20077870C /* UserResponseModel.swift */; };
+		6201C7342D1EDAF90077870C /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C7332D1EDAF90077870C /* ResponseModel.swift */; };
+		6201C7362D1EDB9A0077870C /* FriendService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C7352D1EDB9A0077870C /* FriendService.swift */; };
+		6201C7382D1EEFD70077870C /* FriendResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C7372D1EEFD70077870C /* FriendResponseModel.swift */; };
+		6201C73A2D202BFB0077870C /* FriendEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C7392D202BFB0077870C /* FriendEmptyView.swift */; };
+		6201C73C2D202C280077870C /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C73B2D202C280077870C /* GradientButton.swift */; };
+		6201C73E2D203CDC0077870C /* TabNoFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C73D2D203CDC0077870C /* TabNoFriendViewController.swift */; };
+		620AED9D2D19461B002FEA33 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 620AED9C2D19461B002FEA33 /* Colors.xcassets */; };
+		620AED9F2D1A7215002FEA33 /* AccountingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620AED9E2D1A7215002FEA33 /* AccountingViewController.swift */; };
+		620AEDA12D1A7264002FEA33 /* MoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620AEDA02D1A7264002FEA33 /* MoneyViewController.swift */; };
+		620AEDA32D1A7295002FEA33 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620AEDA22D1A7295002FEA33 /* SettingViewController.swift */; };
+		620AEDA92D1AEF0E002FEA33 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620AEDA82D1AEF0E002FEA33 /* CustomTabBar.swift */; };
+		620AEDAB2D1BD37B002FEA33 /* FriendRequestTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620AEDAA2D1BD37B002FEA33 /* FriendRequestTableView.swift */; };
+		620AEDAD2D1C15A3002FEA33 /* NotificationDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620AEDAC2D1C15A3002FEA33 /* NotificationDot.swift */; };
+		620AEDAF2D1C5357002FEA33 /* TabFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620AEDAE2D1C5357002FEA33 /* TabFriendViewController.swift */; };
+		620AEDB12D1C5381002FEA33 /* TabChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620AEDB02D1C5381002FEA33 /* TabChatViewController.swift */; };
 		628C4B832D12A70A00DF3D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B822D12A70A00DF3D09 /* AppDelegate.swift */; };
 		628C4B852D12A70A00DF3D09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B842D12A70A00DF3D09 /* SceneDelegate.swift */; };
-		628C4B872D12A70A00DF3D09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B862D12A70A00DF3D09 /* ViewController.swift */; };
-		628C4B8A2D12A70A00DF3D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 628C4B882D12A70A00DF3D09 /* Main.storyboard */; };
+		628C4B872D12A70A00DF3D09 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B862D12A70A00DF3D09 /* SelectionViewController.swift */; };
 		628C4B8C2D12A70B00DF3D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 628C4B8B2D12A70B00DF3D09 /* Assets.xcassets */; };
 		628C4B8F2D12A70B00DF3D09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 628C4B8D2D12A70B00DF3D09 /* LaunchScreen.storyboard */; };
 		628C4B9A2D12A70B00DF3D09 /* kokoMates_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4B992D12A70B00DF3D09 /* kokoMates_demoTests.swift */; };
 		628C4BA42D12A70B00DF3D09 /* kokoMates_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4BA32D12A70B00DF3D09 /* kokoMates_demoUITests.swift */; };
 		628C4BA62D12A70B00DF3D09 /* kokoMates_demoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4BA52D12A70B00DF3D09 /* kokoMates_demoUITestsLaunchTests.swift */; };
+		628C4BB82D12B23000DF3D09 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4BB72D12B23000DF3D09 /* Coordinator.swift */; };
+		628C4BBA2D12B23600DF3D09 /* WelcomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4BB92D12B23600DF3D09 /* WelcomeCoordinator.swift */; };
+		628C4BBE2D12BA6400DF3D09 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4BBD2D12BA6400DF3D09 /* BaseViewController.swift */; };
+		628C4BC12D12BAAD00DF3D09 /* AlertBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4BC02D12BAAD00DF3D09 /* AlertBuilder.swift */; };
+		628C4BC42D12BD8F00DF3D09 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4BC32D12BD8F00DF3D09 /* Utils.swift */; };
+		628C4BC62D12FE3E00DF3D09 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4BC52D12FE3E00DF3D09 /* Extension.swift */; };
+		628C4BC82D13E7CB00DF3D09 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4BC72D13E7CB00DF3D09 /* HomeViewController.swift */; };
+		628C4BCD2D14270700DF3D09 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628C4BCC2D14270700DF3D09 /* FriendViewController.swift */; };
+		D3C0D1CB9FE17FB0ADE3D148 /* libPods-kokoMates-demoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7FF9047E8D3AA6E7F4AD37 /* libPods-kokoMates-demoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +75,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		337CC3AAC35E08F8EEF19754 /* Pods-kokoMates-demo-kokoMates-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kokoMates-demo-kokoMates-demoUITests.debug.xcconfig"; path = "Target Support Files/Pods-kokoMates-demo-kokoMates-demoUITests/Pods-kokoMates-demo-kokoMates-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A9C75969D8F2C85CA16942C /* libPods-kokoMates-demo-kokoMates-demoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kokoMates-demo-kokoMates-demoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCBE5B50D81254E31BBD887 /* Pods-kokoMates-demo-kokoMates-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kokoMates-demo-kokoMates-demoUITests.release.xcconfig"; path = "Target Support Files/Pods-kokoMates-demo-kokoMates-demoUITests/Pods-kokoMates-demo-kokoMates-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6201C70D2D1D3DB10077870C /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
+		6201C7112D1D40EE0077870C /* KokoMatesTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KokoMatesTextField.swift; sourceTree = "<group>"; };
+		6201C7182D1D86B40077870C /* FriendRequestUiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestUiModel.swift; sourceTree = "<group>"; };
+		6201C71B2D1DAFF60077870C /* FriendUiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendUiModel.swift; sourceTree = "<group>"; };
+		6201C71D2D1DB0510077870C /* TabFriendTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabFriendTableView.swift; sourceTree = "<group>"; };
+		6201C71F2D1DB3EA0077870C /* SubTabUiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTabUiModel.swift; sourceTree = "<group>"; };
+		6201C7212D1DB59D0077870C /* HollowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HollowButton.swift; sourceTree = "<group>"; };
+		6201C7232D1E8C020077870C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		6201C7252D1E935A0077870C /* SubTabFriendUiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTabFriendUiModel.swift; sourceTree = "<group>"; };
+		6201C7272D1E953C0077870C /* UserUiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUiModel.swift; sourceTree = "<group>"; };
+		6201C72A2D1ED6D80077870C /* HttpTargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpTargetType.swift; sourceTree = "<group>"; };
+		6201C72B2D1ED6D80077870C /* HttpApiConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpApiConfig.swift; sourceTree = "<group>"; };
+		6201C72F2D1ED7580077870C /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		6201C7312D1EDAB20077870C /* UserResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponseModel.swift; sourceTree = "<group>"; };
+		6201C7332D1EDAF90077870C /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		6201C7352D1EDB9A0077870C /* FriendService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendService.swift; sourceTree = "<group>"; };
+		6201C7372D1EEFD70077870C /* FriendResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendResponseModel.swift; sourceTree = "<group>"; };
+		6201C7392D202BFB0077870C /* FriendEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendEmptyView.swift; sourceTree = "<group>"; };
+		6201C73B2D202C280077870C /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		6201C73D2D203CDC0077870C /* TabNoFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNoFriendViewController.swift; sourceTree = "<group>"; };
+		620AED9C2D19461B002FEA33 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		620AED9E2D1A7215002FEA33 /* AccountingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountingViewController.swift; sourceTree = "<group>"; };
+		620AEDA02D1A7264002FEA33 /* MoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyViewController.swift; sourceTree = "<group>"; };
+		620AEDA22D1A7295002FEA33 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		620AEDA82D1AEF0E002FEA33 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		620AEDAA2D1BD37B002FEA33 /* FriendRequestTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestTableView.swift; sourceTree = "<group>"; };
+		620AEDAC2D1C15A3002FEA33 /* NotificationDot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDot.swift; sourceTree = "<group>"; };
+		620AEDAE2D1C5357002FEA33 /* TabFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabFriendViewController.swift; sourceTree = "<group>"; };
+		620AEDB02D1C5381002FEA33 /* TabChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabChatViewController.swift; sourceTree = "<group>"; };
 		628C4B7F2D12A70A00DF3D09 /* kokoMates-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kokoMates-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		628C4B822D12A70A00DF3D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		628C4B842D12A70A00DF3D09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		628C4B862D12A70A00DF3D09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		628C4B892D12A70A00DF3D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		628C4B862D12A70A00DF3D09 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
 		628C4B8B2D12A70B00DF3D09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		628C4B8E2D12A70B00DF3D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		628C4B902D12A70B00DF3D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +119,20 @@
 		628C4B9F2D12A70B00DF3D09 /* kokoMates-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kokoMates-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		628C4BA32D12A70B00DF3D09 /* kokoMates_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kokoMates_demoUITests.swift; sourceTree = "<group>"; };
 		628C4BA52D12A70B00DF3D09 /* kokoMates_demoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kokoMates_demoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		628C4BB72D12B23000DF3D09 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		628C4BB92D12B23600DF3D09 /* WelcomeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeCoordinator.swift; sourceTree = "<group>"; };
+		628C4BBD2D12BA6400DF3D09 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		628C4BC02D12BAAD00DF3D09 /* AlertBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertBuilder.swift; sourceTree = "<group>"; };
+		628C4BC32D12BD8F00DF3D09 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		628C4BC52D12FE3E00DF3D09 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		628C4BC72D13E7CB00DF3D09 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		628C4BCC2D14270700DF3D09 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		8C9F9DC60B36A32E4921CCB3 /* Pods-kokoMates-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kokoMates-demo.debug.xcconfig"; path = "Target Support Files/Pods-kokoMates-demo/Pods-kokoMates-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		934D65C14A53242B38B55DDB /* Pods-kokoMates-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kokoMates-demoTests.release.xcconfig"; path = "Target Support Files/Pods-kokoMates-demoTests/Pods-kokoMates-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		9E7FF9047E8D3AA6E7F4AD37 /* libPods-kokoMates-demoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kokoMates-demoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39E9A9453F1812E28E75DD5 /* libPods-kokoMates-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kokoMates-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8C08EF0971E1F9957ED807 /* Pods-kokoMates-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kokoMates-demo.release.xcconfig"; path = "Target Support Files/Pods-kokoMates-demo/Pods-kokoMates-demo.release.xcconfig"; sourceTree = "<group>"; };
+		EC668D8214DFF5D7E267C666 /* Pods-kokoMates-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kokoMates-demoTests.debug.xcconfig"; path = "Target Support Files/Pods-kokoMates-demoTests/Pods-kokoMates-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EA20CA6CA5E5098B76AB03A /* libPods-kokoMates-demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3C0D1CB9FE17FB0ADE3D148 /* libPods-kokoMates-demoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +156,121 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE99BFE7B04D39F7DFA02EA /* libPods-kokoMates-demo-kokoMates-demoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17C3321D80E0652CCEC505E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A39E9A9453F1812E28E75DD5 /* libPods-kokoMates-demo.a */,
+				3A9C75969D8F2C85CA16942C /* libPods-kokoMates-demo-kokoMates-demoUITests.a */,
+				9E7FF9047E8D3AA6E7F4AD37 /* libPods-kokoMates-demoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6201C7152D1D86880077870C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6201C7172D1D869F0077870C /* API */,
+				6201C7162D1D86940077870C /* UI */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6201C7162D1D86940077870C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6201C7182D1D86B40077870C /* FriendRequestUiModel.swift */,
+				6201C71B2D1DAFF60077870C /* FriendUiModel.swift */,
+				6201C71F2D1DB3EA0077870C /* SubTabUiModel.swift */,
+				6201C7252D1E935A0077870C /* SubTabFriendUiModel.swift */,
+				6201C7272D1E953C0077870C /* UserUiModel.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6201C7172D1D869F0077870C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6201C7312D1EDAB20077870C /* UserResponseModel.swift */,
+				6201C7332D1EDAF90077870C /* ResponseModel.swift */,
+				6201C7372D1EEFD70077870C /* FriendResponseModel.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		6201C71A2D1DAFBB0077870C /* SubTabs */ = {
+			isa = PBXGroup;
+			children = (
+				6201C73D2D203CDC0077870C /* TabNoFriendViewController.swift */,
+				620AEDAE2D1C5357002FEA33 /* TabFriendViewController.swift */,
+				6201C71D2D1DB0510077870C /* TabFriendTableView.swift */,
+				620AEDB02D1C5381002FEA33 /* TabChatViewController.swift */,
+			);
+			path = SubTabs;
+			sourceTree = "<group>";
+		};
+		6201C7292D1ED67D0077870C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6201C72B2D1ED6D80077870C /* HttpApiConfig.swift */,
+				6201C72A2D1ED6D80077870C /* HttpTargetType.swift */,
+				6201C72E2D1ED7160077870C /* Service */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		6201C72E2D1ED7160077870C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6201C72F2D1ED7580077870C /* UserService.swift */,
+				6201C7352D1EDB9A0077870C /* FriendService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		620AEDA42D1A72A4002FEA33 /* Money */ = {
+			isa = PBXGroup;
+			children = (
+				620AEDA02D1A7264002FEA33 /* MoneyViewController.swift */,
+			);
+			path = Money;
+			sourceTree = "<group>";
+		};
+		620AEDA52D1A72B9002FEA33 /* Accounting */ = {
+			isa = PBXGroup;
+			children = (
+				620AED9E2D1A7215002FEA33 /* AccountingViewController.swift */,
+			);
+			path = Accounting;
+			sourceTree = "<group>";
+		};
+		620AEDA62D1A72C3002FEA33 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				620AEDA22D1A7295002FEA33 /* SettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		620AEDA72D1A72DE002FEA33 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6201C7232D1E8C020077870C /* HomeViewModel.swift */,
+				628C4BC72D13E7CB00DF3D09 /* HomeViewController.swift */,
+				620AEDA42D1A72A4002FEA33 /* Money */,
+				628C4BCB2D13EC3000DF3D09 /* Friend */,
+				620AEDA52D1A72B9002FEA33 /* Accounting */,
+				620AEDA62D1A72C3002FEA33 /* Setting */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		628C4B762D12A70A00DF3D09 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +278,8 @@
 				628C4B982D12A70B00DF3D09 /* kokoMates-demoTests */,
 				628C4BA22D12A70B00DF3D09 /* kokoMates-demoUITests */,
 				628C4B802D12A70A00DF3D09 /* Products */,
+				667170D030840008576BAF42 /* Pods */,
+				17C3321D80E0652CCEC505E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +296,13 @@
 		628C4B812D12A70A00DF3D09 /* kokoMates-demo */ = {
 			isa = PBXGroup;
 			children = (
-				628C4B822D12A70A00DF3D09 /* AppDelegate.swift */,
-				628C4B842D12A70A00DF3D09 /* SceneDelegate.swift */,
-				628C4B862D12A70A00DF3D09 /* ViewController.swift */,
-				628C4B882D12A70A00DF3D09 /* Main.storyboard */,
-				628C4B8B2D12A70B00DF3D09 /* Assets.xcassets */,
-				628C4B8D2D12A70B00DF3D09 /* LaunchScreen.storyboard */,
-				628C4B902D12A70B00DF3D09 /* Info.plist */,
+				628C4BB22D12AFCF00DF3D09 /* App */,
+				628C4BB62D12B21100DF3D09 /* Coordinator */,
+				628C4BB32D12AFDA00DF3D09 /* Modules */,
+				6201C7152D1D86880077870C /* Model */,
+				6201C7292D1ED67D0077870C /* Network */,
+				628C4BBB2D12BA2800DF3D09 /* UI */,
+				628C4BC22D12BD7700DF3D09 /* Utility */,
 			);
 			path = "kokoMates-demo";
 			sourceTree = "<group>";
@@ -127,6 +324,101 @@
 			path = "kokoMates-demoUITests";
 			sourceTree = "<group>";
 		};
+		628C4BB22D12AFCF00DF3D09 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				628C4B822D12A70A00DF3D09 /* AppDelegate.swift */,
+				628C4B842D12A70A00DF3D09 /* SceneDelegate.swift */,
+				628C4B8B2D12A70B00DF3D09 /* Assets.xcassets */,
+				620AED9C2D19461B002FEA33 /* Colors.xcassets */,
+				628C4B8D2D12A70B00DF3D09 /* LaunchScreen.storyboard */,
+				628C4B902D12A70B00DF3D09 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		628C4BB32D12AFDA00DF3D09 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				628C4B862D12A70A00DF3D09 /* SelectionViewController.swift */,
+				620AEDA72D1A72DE002FEA33 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		628C4BB62D12B21100DF3D09 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				628C4BB72D12B23000DF3D09 /* Coordinator.swift */,
+				628C4BB92D12B23600DF3D09 /* WelcomeCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		628C4BBB2D12BA2800DF3D09 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				628C4BBF2D12BA9E00DF3D09 /* Alert */,
+				628C4BBC2D12BA4500DF3D09 /* Base */,
+				620AEDA82D1AEF0E002FEA33 /* CustomTabBar.swift */,
+				620AEDAC2D1C15A3002FEA33 /* NotificationDot.swift */,
+				6201C70D2D1D3DB10077870C /* BadgeView.swift */,
+				6201C7112D1D40EE0077870C /* KokoMatesTextField.swift */,
+				6201C7212D1DB59D0077870C /* HollowButton.swift */,
+				6201C7392D202BFB0077870C /* FriendEmptyView.swift */,
+				6201C73B2D202C280077870C /* GradientButton.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		628C4BBC2D12BA4500DF3D09 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				628C4BBD2D12BA6400DF3D09 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		628C4BBF2D12BA9E00DF3D09 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				628C4BC02D12BAAD00DF3D09 /* AlertBuilder.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		628C4BC22D12BD7700DF3D09 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				628C4BC52D12FE3E00DF3D09 /* Extension.swift */,
+				628C4BC32D12BD8F00DF3D09 /* Utils.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		628C4BCB2D13EC3000DF3D09 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				628C4BCC2D14270700DF3D09 /* FriendViewController.swift */,
+				620AEDAA2D1BD37B002FEA33 /* FriendRequestTableView.swift */,
+				6201C71A2D1DAFBB0077870C /* SubTabs */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		667170D030840008576BAF42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C9F9DC60B36A32E4921CCB3 /* Pods-kokoMates-demo.debug.xcconfig */,
+				CD8C08EF0971E1F9957ED807 /* Pods-kokoMates-demo.release.xcconfig */,
+				337CC3AAC35E08F8EEF19754 /* Pods-kokoMates-demo-kokoMates-demoUITests.debug.xcconfig */,
+				3FCBE5B50D81254E31BBD887 /* Pods-kokoMates-demo-kokoMates-demoUITests.release.xcconfig */,
+				EC668D8214DFF5D7E267C666 /* Pods-kokoMates-demoTests.debug.xcconfig */,
+				934D65C14A53242B38B55DDB /* Pods-kokoMates-demoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +426,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 628C4BA92D12A70B00DF3D09 /* Build configuration list for PBXNativeTarget "kokoMates-demo" */;
 			buildPhases = (
+				0A66E64288775834E4D384F7 /* [CP] Check Pods Manifest.lock */,
 				628C4B7B2D12A70A00DF3D09 /* Sources */,
 				628C4B7C2D12A70A00DF3D09 /* Frameworks */,
 				628C4B7D2D12A70A00DF3D09 /* Resources */,
+				E12C122D2F83E9EDB75227B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +445,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 628C4BAC2D12A70B00DF3D09 /* Build configuration list for PBXNativeTarget "kokoMates-demoTests" */;
 			buildPhases = (
+				9FC4F9ED3FD6B49E69982F34 /* [CP] Check Pods Manifest.lock */,
 				628C4B912D12A70B00DF3D09 /* Sources */,
 				628C4B922D12A70B00DF3D09 /* Frameworks */,
 				628C4B932D12A70B00DF3D09 /* Resources */,
@@ -169,9 +464,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 628C4BAF2D12A70B00DF3D09 /* Build configuration list for PBXNativeTarget "kokoMates-demoUITests" */;
 			buildPhases = (
+				035C8FDA5A43F2884B63604C /* [CP] Check Pods Manifest.lock */,
 				628C4B9B2D12A70B00DF3D09 /* Sources */,
 				628C4B9C2D12A70B00DF3D09 /* Frameworks */,
 				628C4B9D2D12A70B00DF3D09 /* Resources */,
+				27ECA330C5D42085A6B7676C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,9 +528,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				620AED9D2D19461B002FEA33 /* Colors.xcassets in Resources */,
 				628C4B8F2D12A70B00DF3D09 /* LaunchScreen.storyboard in Resources */,
 				628C4B8C2D12A70B00DF3D09 /* Assets.xcassets in Resources */,
-				628C4B8A2D12A70A00DF3D09 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +550,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		035C8FDA5A43F2884B63604C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kokoMates-demo-kokoMates-demoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A66E64288775834E4D384F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kokoMates-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27ECA330C5D42085A6B7676C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kokoMates-demo-kokoMates-demoUITests/Pods-kokoMates-demo-kokoMates-demoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kokoMates-demo-kokoMates-demoUITests/Pods-kokoMates-demo-kokoMates-demoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kokoMates-demo-kokoMates-demoUITests/Pods-kokoMates-demo-kokoMates-demoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FC4F9ED3FD6B49E69982F34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kokoMates-demoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E12C122D2F83E9EDB75227B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kokoMates-demo/Pods-kokoMates-demo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kokoMates-demo/Pods-kokoMates-demo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kokoMates-demo/Pods-kokoMates-demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		628C4B7B2D12A70A00DF3D09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				628C4B872D12A70A00DF3D09 /* ViewController.swift in Sources */,
+				628C4BCD2D14270700DF3D09 /* FriendViewController.swift in Sources */,
+				628C4BC62D12FE3E00DF3D09 /* Extension.swift in Sources */,
+				6201C7122D1D40EE0077870C /* KokoMatesTextField.swift in Sources */,
+				628C4BB82D12B23000DF3D09 /* Coordinator.swift in Sources */,
+				620AED9F2D1A7215002FEA33 /* AccountingViewController.swift in Sources */,
+				6201C7222D1DB59D0077870C /* HollowButton.swift in Sources */,
+				620AEDA92D1AEF0E002FEA33 /* CustomTabBar.swift in Sources */,
+				6201C7192D1D86B40077870C /* FriendRequestUiModel.swift in Sources */,
+				6201C72C2D1ED6D80077870C /* HttpTargetType.swift in Sources */,
+				620AEDAB2D1BD37B002FEA33 /* FriendRequestTableView.swift in Sources */,
+				6201C73C2D202C280077870C /* GradientButton.swift in Sources */,
+				628C4B872D12A70A00DF3D09 /* SelectionViewController.swift in Sources */,
+				6201C7282D1E953C0077870C /* UserUiModel.swift in Sources */,
+				620AEDA32D1A7295002FEA33 /* SettingViewController.swift in Sources */,
+				6201C7382D1EEFD70077870C /* FriendResponseModel.swift in Sources */,
+				620AEDB12D1C5381002FEA33 /* TabChatViewController.swift in Sources */,
+				620AEDA12D1A7264002FEA33 /* MoneyViewController.swift in Sources */,
+				628C4BBA2D12B23600DF3D09 /* WelcomeCoordinator.swift in Sources */,
 				628C4B832D12A70A00DF3D09 /* AppDelegate.swift in Sources */,
+				6201C7302D1ED7580077870C /* UserService.swift in Sources */,
+				6201C7342D1EDAF90077870C /* ResponseModel.swift in Sources */,
+				6201C7202D1DB3EA0077870C /* SubTabUiModel.swift in Sources */,
+				6201C7242D1E8C020077870C /* HomeViewModel.swift in Sources */,
+				620AEDAF2D1C5357002FEA33 /* TabFriendViewController.swift in Sources */,
+				6201C7322D1EDAB20077870C /* UserResponseModel.swift in Sources */,
+				6201C7362D1EDB9A0077870C /* FriendService.swift in Sources */,
+				620AEDAD2D1C15A3002FEA33 /* NotificationDot.swift in Sources */,
+				6201C70E2D1D3DB10077870C /* BadgeView.swift in Sources */,
+				6201C73E2D203CDC0077870C /* TabNoFriendViewController.swift in Sources */,
+				628C4BC82D13E7CB00DF3D09 /* HomeViewController.swift in Sources */,
+				6201C71E2D1DB0510077870C /* TabFriendTableView.swift in Sources */,
 				628C4B852D12A70A00DF3D09 /* SceneDelegate.swift in Sources */,
+				628C4BC12D12BAAD00DF3D09 /* AlertBuilder.swift in Sources */,
+				6201C71C2D1DAFF60077870C /* FriendUiModel.swift in Sources */,
+				6201C7262D1E935A0077870C /* SubTabFriendUiModel.swift in Sources */,
+				628C4BBE2D12BA6400DF3D09 /* BaseViewController.swift in Sources */,
+				6201C72D2D1ED6D80077870C /* HttpApiConfig.swift in Sources */,
+				6201C73A2D202BFB0077870C /* FriendEmptyView.swift in Sources */,
+				628C4BC42D12BD8F00DF3D09 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +733,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		628C4B882D12A70A00DF3D09 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				628C4B892D12A70A00DF3D09 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		628C4B8D2D12A70B00DF3D09 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,17 +865,19 @@
 		};
 		628C4BAA2D12A70B00DF3D09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C9F9DC60B36A32E4921CCB3 /* Pods-kokoMates-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z65K2PKR7R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "kokoMates-demo/Info.plist";
+				INFOPLIST_FILE = "kokoMates-demo/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,25 +887,31 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crepowermay.kokoMates-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		628C4BAB2D12A70B00DF3D09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD8C08EF0971E1F9957ED807 /* Pods-kokoMates-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z65K2PKR7R;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "kokoMates-demo/Info.plist";
+				INFOPLIST_FILE = "kokoMates-demo/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -485,14 +921,19 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.crepowermay.kokoMates-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		628C4BAD2D12A70B00DF3D09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC668D8214DFF5D7E267C666 /* Pods-kokoMates-demoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +954,7 @@
 		};
 		628C4BAE2D12A70B00DF3D09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 934D65C14A53242B38B55DDB /* Pods-kokoMates-demoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +975,7 @@
 		};
 		628C4BB02D12A70B00DF3D09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 337CC3AAC35E08F8EEF19754 /* Pods-kokoMates-demo-kokoMates-demoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +994,7 @@
 		};
 		628C4BB12D12A70B00DF3D09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FCBE5B50D81254E31BBD887 /* Pods-kokoMates-demo-kokoMates-demoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
