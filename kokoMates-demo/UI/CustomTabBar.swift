@@ -47,7 +47,6 @@ public final class CustomTabBar: UITabBar {
             height: 64
         )
         middleButton.layer.cornerRadius = 32
-//        middleButton.backgroundColor = .gray
         middleButton.setImage("ic_ko".image, for: .normal)
         middleButton.tintColor = .white
 

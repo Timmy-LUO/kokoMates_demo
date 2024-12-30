@@ -17,14 +17,9 @@ public final class BadgeView: UIView {
             updateBadge()
         }
     }
-
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        setupUI()
-    }
-
-    required init?(coder: NSCoder) {
-        super.init(coder: coder)
+    
+    convenience init() {
+        self.init(frame: .zero)
         setupUI()
     }
 

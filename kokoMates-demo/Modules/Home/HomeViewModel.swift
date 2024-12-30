@@ -17,10 +17,14 @@ public final class HomeViewModel: ObservableObject {
     public var onKeyword = PassthroughSubject<String, Never>()
     
     // outputs
-    @Published public var userData: UserUiModel? = nil
-    @Published public var friendrequestList: [FriendRequestUiModel] = []
-    @Published public var subTabList: [SubTabUiModel] = []
-    @Published public var friendList: [FriendUiModel] = []
+    @Published
+    public var userData: UserUiModel? = nil
+    @Published 
+    public var friendrequestList: [FriendRequestUiModel] = []
+    @Published
+    public var subTabList: [SubTabUiModel] = []
+    @Published 
+    public var friendList: [FriendUiModel] = []
     
     public var errorMessage: AnyPublisher<String, Never> { _errorMessage.eraseToAnyPublisher() }
     
@@ -79,7 +83,7 @@ public final class HomeViewModel: ObservableObject {
                         self?._errorMessage.send(failureBody.Message)
                     }
                 case .failure(let error):
-                    print("Error: \(error)")
+                    self?._errorMessage.send(error.localizedDescription)
                 }
             }
     }
@@ -137,7 +141,7 @@ public final class HomeViewModel: ObservableObject {
     private func getFriendListOne() -> AnyPublisher<[FriendUiModel], Never> {
         Future<[FriendUiModel], Never> { promise in
             FriendService.getFriendOne()
-                .request { result in
+                .request { [weak self] result in
                     switch result {
                     case .success(let response):
                         switch response {
@@ -145,11 +149,11 @@ public final class HomeViewModel: ObservableObject {
                             let list = successBody.response.map { $0.toUiModel() }
                             promise(.success(list))
                         case .failure(let failureBody):
-                            print("failure: \(failureBody)")
+                            self?._errorMessage.send(failureBody.Message)
                             promise(.success([]))
                         }
                     case .failure(let error):
-                        print("Error: \(error)")
+                        self?._errorMessage.send(error.localizedDescription)
                         promise(.success([]))
                     }
                 }
@@ -159,7 +163,7 @@ public final class HomeViewModel: ObservableObject {
     private func getFriendListTwo() -> AnyPublisher<[FriendUiModel], Never> {
         Future<[FriendUiModel], Never> { promise in
             FriendService.getFriendTwo()
-                .request { result in
+                .request { [weak self] result in
                     switch result {
                     case .success(let response):
                         switch response {
@@ -167,11 +171,11 @@ public final class HomeViewModel: ObservableObject {
                             let list = successBody.response.map { $0.toUiModel() }
                             promise(.success(list))
                         case .failure(let failureBody):
-                            print("failure: \(failureBody)")
+                            self?._errorMessage.send(failureBody.Message)
                             promise(.success([]))
                         }
                     case .failure(let error):
-                        print("Error: \(error)")
+                        self?._errorMessage.send(error.localizedDescription)
                         promise(.success([]))
                     }
                 }
@@ -187,10 +191,10 @@ public final class HomeViewModel: ObservableObject {
                     case .success(let successBody):
                         self?.friendrequestList = successBody.response.map { $0.toFriendRequestUiModel() }
                     case .failure(let failureBody):
-                        print("failure: \(failureBody)")
+                        self?._errorMessage.send(failureBody.Message)
                     }
                 case .failure(let error):
-                    print("Error: \(error)")
+                    self?._errorMessage.send(error.localizedDescription)
                 }
             }
     }

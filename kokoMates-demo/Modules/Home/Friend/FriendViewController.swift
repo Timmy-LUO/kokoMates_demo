@@ -62,6 +62,12 @@ public final class FriendViewController: BaseViewController {
                 )
             }
             .store(in: &cancellables)
+        
+        viewModel.errorMessage
+            .sink { [weak self] message in
+                self?.promptAlert(message: message)
+            }
+            .store(in: &cancellables)
     }
     
     @objc

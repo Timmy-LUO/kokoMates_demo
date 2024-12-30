@@ -10,7 +10,6 @@
 		2EA20CA6CA5E5098B76AB03A /* libPods-kokoMates-demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A39E9A9453F1812E28E75DD5 /* libPods-kokoMates-demo.a */; };
 		4EE99BFE7B04D39F7DFA02EA /* libPods-kokoMates-demo-kokoMates-demoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9C75969D8F2C85CA16942C /* libPods-kokoMates-demo-kokoMates-demoUITests.a */; };
 		6201C70E2D1D3DB10077870C /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C70D2D1D3DB10077870C /* BadgeView.swift */; };
-		6201C7122D1D40EE0077870C /* KokoMatesTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C7112D1D40EE0077870C /* KokoMatesTextField.swift */; };
 		6201C7192D1D86B40077870C /* FriendRequestUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C7182D1D86B40077870C /* FriendRequestUiModel.swift */; };
 		6201C71C2D1DAFF60077870C /* FriendUiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C71B2D1DAFF60077870C /* FriendUiModel.swift */; };
 		6201C71E2D1DB0510077870C /* TabFriendTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6201C71D2D1DB0510077870C /* TabFriendTableView.swift */; };
@@ -79,7 +78,6 @@
 		3A9C75969D8F2C85CA16942C /* libPods-kokoMates-demo-kokoMates-demoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kokoMates-demo-kokoMates-demoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCBE5B50D81254E31BBD887 /* Pods-kokoMates-demo-kokoMates-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kokoMates-demo-kokoMates-demoUITests.release.xcconfig"; path = "Target Support Files/Pods-kokoMates-demo-kokoMates-demoUITests/Pods-kokoMates-demo-kokoMates-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6201C70D2D1D3DB10077870C /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
-		6201C7112D1D40EE0077870C /* KokoMatesTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KokoMatesTextField.swift; sourceTree = "<group>"; };
 		6201C7182D1D86B40077870C /* FriendRequestUiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestUiModel.swift; sourceTree = "<group>"; };
 		6201C71B2D1DAFF60077870C /* FriendUiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendUiModel.swift; sourceTree = "<group>"; };
 		6201C71D2D1DB0510077870C /* TabFriendTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabFriendTableView.swift; sourceTree = "<group>"; };
@@ -363,7 +361,6 @@
 				620AEDA82D1AEF0E002FEA33 /* CustomTabBar.swift */,
 				620AEDAC2D1C15A3002FEA33 /* NotificationDot.swift */,
 				6201C70D2D1D3DB10077870C /* BadgeView.swift */,
-				6201C7112D1D40EE0077870C /* KokoMatesTextField.swift */,
 				6201C7212D1DB59D0077870C /* HollowButton.swift */,
 				6201C7392D202BFB0077870C /* FriendEmptyView.swift */,
 				6201C73B2D202C280077870C /* GradientButton.swift */,
@@ -660,7 +657,6 @@
 			files = (
 				628C4BCD2D14270700DF3D09 /* FriendViewController.swift in Sources */,
 				628C4BC62D12FE3E00DF3D09 /* Extension.swift in Sources */,
-				6201C7122D1D40EE0077870C /* KokoMatesTextField.swift in Sources */,
 				628C4BB82D12B23000DF3D09 /* Coordinator.swift in Sources */,
 				620AED9F2D1A7215002FEA33 /* AccountingViewController.swift in Sources */,
 				6201C7222D1DB59D0077870C /* HollowButton.swift in Sources */,
